@@ -30,7 +30,8 @@ Step5:
 <br/>
 
 ## Program
-```python
+~~~
+python
 from robomaster import robot
 import time
 
@@ -41,19 +42,38 @@ if __name__ == '__main__':
     ep_chassis = ep_robot.chassis
 
     ## Write your code here
+from robomaster import robot
+import time
 
+if _name_ == '_main_':
+    ep_robot = robot.Robot()
+    ep_robot.initialize(conn_type="ap")
 
+    ep_chassis = ep_robot.chassis
+    ep_chassis.move(x=3, y=0, z=0, xy_speed=.75).wait_for_completed()
 
+    ep_chassis.move(x=0, y=0, z=45, xy_speed=0.75).wait_for_completed()
+
+    ep_chassis.move(x=3, y=0, z=0, xy_speed=0.75).wait_for_completed()
     
-    ep_robot.close()
-```
+    ep_chassis.move(x=0, y=0, z=45, xy_speed=0.75).wait_for_completed()
+    ep_chassis.move(x=1, y=0, z=0, xy_speed=0.75).wait_for_completed()
+    ep_chassis.move(x=0, y=0, z=45, xy_speed=0.75).wait_for_completed()
+    ep_chassis.move(x=1.5, y=0, z=0, xy_speed=0.75).wait_for_completed()
+    ep_chassis.move(x=0, y=0, z=45, xy_speed=0.75).wait_for_completed()
+    ep_chassis.move(x=0.8, y=0, z=0, xy_speed=0.75).wait_for_completed()
+    ep_chassis.move(x=0, y=0, z=45, xy_speed=0.75).wait_for_completed()
+    ep_chassis.move(x=0.9, y=0, z=0, xy_speed=0.75).wait_for_completed()
 
+
+    ep_robot.close()
+~~~
 ## MobileRobot Movement Image:
 
 ![robo](./img/robomaster.png)
 
 Insert image here
-
+![output](robot.jpeg)
 
 <br/>
 <br/>
@@ -63,7 +83,7 @@ Insert image here
 ## MobileRobot Movement Video:
 
 Embed video here
-
+https://youtu.be/2qwsmqQ8a4w
 <br/>
 <br/>
 <br/>
