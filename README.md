@@ -65,26 +65,13 @@ if _name_ == '_main_':
 Insert image here
 ![output](robot.jpeg)
 
-<br/>
-<br/>
-<br/>
-<br/>
-
 ## MobileRobot Movement Video:
 
 Embed video here
-![robot](https://img.youtube.com/vi/2qwsmqQ8a4w/0.jpeg)(https://www.youtube.com/watch?v=2qwsmqQ8a4w)
-<br/>
-<br/>
-<br/>
-<br/>
+[![robot](https://img.youtube.com/vi/2qwsmqQ8a4w/0.jpeg)](https://www.youtube.com/watch?v=2qwsmqQ8a4w)
 
 ## Result:
 Thus the python program code is developed to move the mobilerobot in the predefined path.
-
-
-<br/>
-<br/>
 
 ```
 Mobile Robotics Laboratory
