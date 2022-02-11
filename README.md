@@ -73,7 +73,7 @@ Insert image here
 ## MobileRobot Movement Video:
 
 Embed video here
-[![robot](https://img.youtube.com/vi/2qwsmqQ8a4w/0.jpeg)](https://www.youtube.com/watch?v=2qwsmqQ8a4w)
+![robot](https://img.youtube.com/vi/2qwsmqQ8a4w/0.jpeg)(https://www.youtube.com/watch?v=2qwsmqQ8a4w)
 <br/>
 <br/>
 <br/>
